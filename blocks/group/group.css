@@ -1,0 +1,14 @@
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  row-gap: 32px;
+}
+
+@media (max-width: 320px) {
+  .group {
+    width: 288px;
+    row-gap: 16px;
+  }
+}

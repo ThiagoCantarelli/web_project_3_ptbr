@@ -1,0 +1,16 @@
+.place {
+  display: grid;
+  gap: 48px 40px;
+  grid-template-columns: repeat(2, 1fr);
+  padding-bottom: 80px;
+}
+
+
+@media (max-width: 320px) {
+  .place {
+    padding-bottom: 37px;
+    row-gap: 30px;
+    grid-template-columns: 320px;
+    justify-items: center;
+  }
+}

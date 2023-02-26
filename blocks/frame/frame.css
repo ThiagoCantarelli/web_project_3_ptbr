@@ -1,0 +1,19 @@
+.frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  width: 355px;
+  height: 48px;
+  background-color: #0278fe;
+}
+
+.frame:hover {
+  cursor: url(../../imagens/__cursor.cur), default;
+}
+
+@media (max-width: 320px) {
+  .frame {
+    width: 288px;
+  }
+}

@@ -1,0 +1,10 @@
+.place__title_gales {
+  max-width: 484px;
+}
+
+@media (max-width: 320px) {
+  .place__title_gales {
+    max-width: 288px;
+    padding-bottom: 8px;
+  }
+}

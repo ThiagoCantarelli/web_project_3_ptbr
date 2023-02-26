@@ -1,0 +1,18 @@
+.footer {
+  padding-top: 92px;
+  padding-bottom: 24px;
+  display: grid;
+  place-items: center;
+}
+
+@media (min-width: 768px) and (max-width: 1279px) {
+  .footer {
+    padding-top: 92px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .footer {
+    padding-top: 64px;
+  }
+}

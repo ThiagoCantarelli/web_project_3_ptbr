@@ -1,0 +1,15 @@
+.group__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 280px;
+}
+
+@media (max-width: 320px) {
+  .group__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

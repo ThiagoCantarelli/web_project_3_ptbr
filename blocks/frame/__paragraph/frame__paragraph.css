@@ -1,0 +1,16 @@
+.frame__paragraph {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+}
+.frame_.frame__paragraph {
+  cursor: url(../../imagens/__cursor.cur), auto;
+}
+@media (max-width: 320px) {
+  .frame__paragraph {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

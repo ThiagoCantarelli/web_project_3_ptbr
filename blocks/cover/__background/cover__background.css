@@ -1,0 +1,15 @@
+.cover__background {
+  z-index: -1;
+  object-fit: cover;
+}
+
+.cover__background:hover {
+  background: #2a2c2f;
+  opacity: 0.8;
+}
+@media (max-width: 320px) {
+  .cover__background {
+    width: 320px;
+    height: 254px;
+  }
+}

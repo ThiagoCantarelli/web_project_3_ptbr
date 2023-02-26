@@ -1,0 +1,12 @@
+.intro__description {
+  max-width: 722px;
+  padding-top: 40px;
+  padding-bottom: 32px;
+}
+
+@media (max-width: 320px) {
+  .intro__description {
+    padding-top: 9px;
+    padding-bottom: 18px;
+  }
+}

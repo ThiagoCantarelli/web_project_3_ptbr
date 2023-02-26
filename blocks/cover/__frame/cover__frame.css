@@ -1,0 +1,9 @@
+.cover__frame {
+  width: 191px;
+}
+@media (max-width: 320px) {
+  .cover__frame {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
