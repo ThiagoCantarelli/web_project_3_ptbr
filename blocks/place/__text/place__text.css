@@ -1,8 +1,8 @@
 .place__text {
+  grid-area: place__text;
+  display: flex;
+  flex-direction: column;
   row-gap: 25px;
-  display: grid;
-  grid-column: 2;
-  grid-row: 2/4;
 }
 
 @media (min-width: 768px) and (max-width: 1279px) {
@@ -14,8 +14,6 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .place__text {
     row-gap: 7px;
-    grid-column: 1;
-    grid-row: 4;
     width: 288px;
   }
 }
